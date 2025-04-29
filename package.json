@@ -1,0 +1,36 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "This is a simple React-based portfolio site using Tailwind CSS and Framer Motion.",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+  "start": "react-scripts start"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarmenZak/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarmenZak/portfolio/issues"
+  },
+  "homepage": "https://github.com/CarmenZak/portfolio#readme",
+  "dependencies": {
+    "framer-motion": "^12.9.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "vite": "^6.3.3"
+  }
+}
